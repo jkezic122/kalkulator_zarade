@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    opacity: .8;
+}
+
+header {
+    background-color: #adb4c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    color: #f5f5dc;
+}
+
+.stanje {
+    width: 17rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    color: #f5f5dc;
+    font-size: 3.5rem;
+}
+
+
+.prihod {
+    background-color: #00c9c9;
+    width: 25rem;
+    margin: 15px 0 5px 0;
+    padding: 0 10px 0 10px;
+}
+
+.prihod p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prihod p span {
+    color: #f5f5dc;
+}
+
+.rashod {
+    background-color: #ff0000;
+    width: 25rem;
+    margin: 5px 0 15px 0;
+    padding: 0 10px 0 10px;
+}
+
+.rashod p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rashod p span {
+    color: #f5f5dc;
+}
+
+form {
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    justify-content: center;
+}
+
+#dropdown {
+    width: 5rem;
+    height: 2.5rem;
+    margin: 1rem 0 1rem 0;
+    border-color: lightgray;
+}
+
+input {
+    width: 25rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+    margin: 1rem;
+    border: 1px solid lightgray;
+    /* opacity: .8; */
+}
+
+input[type=number] {
+    width: 5rem;
+    margin: 1rem 0 1rem 0;
+    border: 1px solid lightgray;
+}
+
+button {
+    color: red;
+    background-color: rgb(248, 248, 248);
+    border: 2px solid;
+    border-radius: 50%;
+    margin: 1.3rem 1rem 1.3rem 1rem;
+    height: 1.7;
+    width: 2rem;
+}
+
+.prihodi-rashodi {
+    display: flex;
+    justify-content: center;
+}
+
+.lista-prihoda {
+    width: 30rem;
+    margin: 2rem 1rem 0 0;
+}
+
+.lista-prihoda p {
+    color:#00c9c9;
+    border-bottom: 1px solid #0000002d;
+    padding: 0 0 .5rem 0;
+    margin: 0 0 0 0;
+}
+
+.lista-prihoda ul {
+    list-style: none;
+}
+
+.lista-rashoda {
+    width: 30rem;
+    margin: 2rem 0 0 1rem;
+}
+
+.lista-prihoda ul li {
+    border-bottom: 1px solid #0000002d;
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-prihoda ul li span {
+    color:#00c9c9;
+}
+
+.lista-rashoda p {
+    color: #ff0000;
+    border-bottom: 1px solid #0000002d;
+    padding: 0 0 .5rem 0;
+    margin: 0 0 0 0;
+}
+
+.lista-rashoda ul {
+    list-style: none;
+}
+
+.lista-rashoda ul li {
+    border-bottom: 1px solid #0000002d;
+    padding: 1rem 1rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-rashoda ul li span {
+    color: #ff0000;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator zarade</title>
+</head>
+
+<body>
+    <header>
+        <h2>Dostupan budzet u januaru 2021:</h2>
+        <div class="stanje">
+            + 5,493.99
+        </div>
+        <div class="prihod">
+            <p>PRIHOD <span>+ 32,125.34</span></p>
+        </div>
+        <div class="rashod">
+            <p>RASHOD <span>- 26,631.35</span></p>
+        </div>
+    </header>
+
+    <form action="">
+        <select name="dropdown" id="dropdown">
+            <option value="" selected>-</option>
+            <option value="prihod">Prihod</option>
+            <option value="rashod">Rashod</option>
+        </select>
+        <input type="text" placeholder="Opis" id="opis" required>
+        <input type="number" placeholder="Iznos" id="iznos">
+        <button type="submit">&check;</button>
+    </form>
+    <div class="prihodi-rashodi">
+        <div class="lista-prihoda">
+            <ul>
+                <p>PRIHODI</p>
+                <li>Plata <span>+ 32,125.34</span></li>
+            </ul>
+        </div>
+        <div class="lista-rashoda">
+            <ul>
+                <p>RASHODI</p>
+                <li>Skolarina <span>- 17,060.35</span></li>
+                <li>Nepredvidjeni troskovi <span>- 9,571.00</span></li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
